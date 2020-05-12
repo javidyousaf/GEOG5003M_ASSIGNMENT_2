@@ -43,7 +43,7 @@ class MainApplication:
         self.master = master
         master.title("White Star Line Analysis")
         master.wm_iconbitmap('assets/iceberg.ico')
-        master.geometry("1150x650+10+10")
+        master.geometry("1080x650+10+10")
         master.resizable(width=False, height=False) # disable resizing of main window
 
         self.lidar_data = []
@@ -174,8 +174,8 @@ class MainApplication:
     # Process the lidar file
 
     def process_lidar_file(self, lidar_filename):
-        lidar_label = Label(self.load_frame, text=os.path.basename(lidar_filename))
-        lidar_label.grid(row=1, column=1)
+        self.lidar_label = Label(self.load_frame, text=os.path.basename(lidar_filename))
+        self.lidar_label.grid(row=1, column=1)
         if not lidar_filename:
             return
         try:
@@ -194,9 +194,8 @@ class MainApplication:
     # Process the radar file
 
     def process_radar_file(self, radar_filename):
-        radar_label = Label(
-            self.load_frame, text=os.path.basename(radar_filename))
-        radar_label.grid(row=2, column=1)
+        self.radar_label = Label(self.load_frame, text=os.path.basename(radar_filename))
+        self.radar_label.grid(row=2, column=1)
         if not radar_filename:
             return
         try:
@@ -305,6 +304,8 @@ class MainApplication:
         self.total_mass_as_result_label['text'] = "n/a"
         self.total_volume_result_label['text'] = "n/a"
         self.total_mass_result_label['text'] = "n/a"
+        self.lidar_label['text'] = ""
+        self.radar_label['text'] = ""
 
         self.tow_decision_result_label['text'] = "n/a"
         self.tow_decision_result_label['bg'] = "lightgray"
