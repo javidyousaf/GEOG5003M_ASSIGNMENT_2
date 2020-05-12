@@ -8,7 +8,7 @@ Date: 15/05/2020
 Description: Class to capture and calculate information about each element 
 """
 
-class SeaAgent:
+class AreaElement:
     def __init__(self, x, y, radar_value, lidar_value):
         self._y = x # x coord of element in the area matrix
         self._x = y # y coord of element in the area matrix
