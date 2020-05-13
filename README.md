@@ -7,7 +7,7 @@ Use satellite lidar and radar data to detect and analyse icbergs and determine t
 
 The area of sea is 300m x 300m
 
-<img src="src\assets\images\wsl_screen_grab.png" alt="White Star Line Analysis main window" width="700" height="500">
+<img src="src\assets\images\wsl_screen_grab.png" alt="White Star Line Analysis main window" width="1000" height="600">
 
 ## Contents
 - a
