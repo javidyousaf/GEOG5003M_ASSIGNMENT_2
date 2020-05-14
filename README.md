@@ -1,5 +1,5 @@
 
-<img  align="left" src="src\assets\images\wsl.ico" alt="Whistlerpro / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" width="160" height="160">
+<img  align="left" src="src\assets\images\wsl.ico" alt="Whistlerpro / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" width="180" height="180">
 
 # White Star Line Analysis
 
