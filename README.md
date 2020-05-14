@@ -58,7 +58,7 @@ The application allows the user to load  ***radar*** and ***lidar*** file of a g
         <td width="350"><img src="src\assets\images\manual_selected.PNG" alt="Manual select" width="220" height="120"></td>
         <td>
             <h3>Loading a file</h3>
-            The file selection dialog will open and only allow the selection of a ***.lidar*** or ***.radar*** file. Once selected the loaded file name displays next to the button.
+            The file selection dialog will open and only allow the selection of a <i>.lidar</i> or <i>.radar</i> file type. Once selected the loaded file name displays next to the button.
         </td>
     </tr>
     <tr>
