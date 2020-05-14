@@ -11,6 +11,7 @@
 1. [Development tools](#development-tools)
 1. [Installation](#installation)
 1. [User guide](#user-guide)
+1. [Documents](#documents)
 1. [Developer Information](#developer-information)
 1. [License](#license)
 1. [Attribution](#attribution)
@@ -79,7 +80,8 @@ The application allows the user to load  ***radar*** and ***lidar*** file of a g
 
 ***Note:*** This application is limited to analysing a single iceberg. Future development will include the ability to analyse an area of sea with multiple icebergs.
 
-
+## Documents
+The software development guide can be viewed as a pdf [here](documents\WhiteStarLineSoftwareDevelopmentGuide.pdf).
 ## Developer Information
 Code developed by [Javid Yousaf](https://github.com/javidyousaf/) for University of Leeds MSc Geographical Information Science course. 
 
