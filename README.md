@@ -41,35 +41,35 @@ The application allows the user to load  ***radar*** and ***lidar*** file of a g
 
 <table>
     <tr>
-        <td width="200"><img src="src\assets\images\default_button.PNG" alt="Default button" width="150" height="90"></td>
+        <td width="350"><img src="src\assets\images\default_button.PNG" alt="Default button" width="220" height="120"></td>
         <td>
             <h3>Default processing</h3>
             The <b>Run Process</b> button automates the processing by loading the radar and lidar files automatically and then processing them and displaying the analysis and charts in the chart panel.
         </td>
     </tr>
     <tr>
-        <td width="200"><img src="src\assets\images\manual_buttons.PNG" alt="Manual processing" width="150" height="90"></td>
+        <td width="350"><img src="src\assets\images\manual_buttons.PNG" alt="Manual processing" width="220" height="120"></td>
         <td>
             <h3>Manual processing</h3>
             The <b>Manual Processing</b> allows the user to select a <i>lidar</i> and <i>radar</i> file from the desktop file system. When both files are loaded the application will automatically process them and display the analysis and charts.
         </td>
     </tr>
     <tr>
-        <td width="200"><img src="src\assets\images\manual_select_file.PNG" alt="Manual select" width="190" height="90"><img src="src\assets\images\manual_selected.PNG" alt="Manual select" width="150" height="90"></td>
+        <td width="350"><img src="src\assets\images\manual_selected.PNG" alt="Manual select" width="220" height="120"></td>
         <td>
             <h3>Loading a file</h3>
-            The file selection dialog will open and only allow the selection of a ***.lidar*** or ***.radar*** file.
+            The file selection dialog will open and only allow the selection of a ***.lidar*** or ***.radar*** file. Once selected the loaded file name displays next to the button.
         </td>
     </tr>
     <tr>
-        <td width="200"><img src="src\assets\images\analysis.PNG" alt="Results of analysis" width="190" height="100"></td>
+        <td width="350"><img src="src\assets\images\analysis.PNG" alt="Results of analysis" width="320" height="200"></td>
         <td>
             <h3>Analysis and Results</h3>
             The <b>Iceberg Analysis</b> panel shows the results of the analysis by displaying the volume and mass above sea level and total volume and mass. If the iceberg is towable (i.e. if the total mass is less than 36 million kgs) then this is indicated and displayed in green. If not towable then the message is displayed in red.
         </td>
     </tr>
     <tr>
-        <td width="200"><img src="src\assets\images\control_buttons.PNG" alt="Results of analysis" width="190" height="100"></td>
+        <td width="350"><img src="src\assets\images\control_buttons.PNG" alt="Results of analysis" width="320" height="100"></td>
         <td>
             <h3>Control Buttons</h3>
             <b>Export to file</b> button will open a file dialog and allow the user to select a location and filename to save a simple text file containing the analysis results.</br>
@@ -78,6 +78,8 @@ The application allows the user to load  ***radar*** and ***lidar*** file of a g
         </td>
     </tr>
 </table>
+
+***Note:*** This application is limited to analysing a single iceberg. Future development will include the ability to analyse an area of sea with multiple icebergs.
 
 
 ## Developer Information
