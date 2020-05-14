@@ -5,7 +5,7 @@
     </tr>
 </table>
 
-White Start Line Analysis is a desktop application developed to detect and analyse icebergs and determine their tow ability using satellite lidar and radar data.
+White Start Line Analysis is a desktop application developed to detect and analyse icebergs, using satellite lidar and radar data of an arear of the sea in the White Start Line shipping lanes. The analysis calculates the volume and mass of the iceberg to determine its tow ability.
 
 ## Contents
 
@@ -37,21 +37,44 @@ This application was developed using the following software tools:
 python main.py</code></pre>
 
 ## 4. User Guide
-The application allows the user to load  ***radar*** and ***lidar*** file of a geographical area of sea. It then processes this data and detects icebergs and calculates the volume and mass above sea level and an estimation of the total volume and mass. It detemines if the iceberg is towable and displays this information.
+The application allows the user to load  ***radar*** and ***lidar*** file of a geographical area of sea. It then processes this data and detects icebergs and calculates the volume and mass above sea level and an estimation of the total volume and mass. It determines if the iceberg is towable and displays this information.
 
 <table>
     <tr>
-        <td><img src="src\assets\images\default_button.PNG" alt="Default button" width="150" height="80"></td>
+        <td width="200"><img src="src\assets\images\default_button.PNG" alt="Default button" width="150" height="90"></td>
         <td>
             <h3>Default processing</h3>
-            The <b>Run Process</b> button automates the processing by loading the radar and lidar files automatically and then processing them and diplaying the analysis and charts in the chart panel.
+            The <b>Run Process</b> button automates the processing by loading the radar and lidar files automatically and then processing them and displaying the analysis and charts in the chart panel.
         </td>
     </tr>
     <tr>
-        <td><img src="src\assets\images\manual_buttons.PNG" alt="Manual processing" width="150" height="80"></td>
+        <td width="200"><img src="src\assets\images\manual_buttons.PNG" alt="Manual processing" width="150" height="90"></td>
         <td>
             <h3>Manual processing</h3>
-            The <b>Manual Processsing</b> allows the user to select a <i>lidar</i> and <i>radar</i> file fron the desktop file system. When both files are loaded the appliaction will automatically process them and diplay the analysis and charts.
+            The <b>Manual Processing</b> allows the user to select a <i>lidar</i> and <i>radar</i> file from the desktop file system. When both files are loaded the application will automatically process them and display the analysis and charts.
+        </td>
+    </tr>
+    <tr>
+        <td width="200"><img src="src\assets\images\manual_select_file.PNG" alt="Manual select" width="190" height="90"><img src="src\assets\images\manual_selected.PNG" alt="Manual select" width="150" height="90"></td>
+        <td>
+            <h3>Loading a file</h3>
+            The file selection dialog will open and only allow the selection of a ***.lidar*** or ***.radar*** file.
+        </td>
+    </tr>
+    <tr>
+        <td width="200"><img src="src\assets\images\analysis.PNG" alt="Results of analysis" width="190" height="100"></td>
+        <td>
+            <h3>Analysis and Results</h3>
+            The <b>Iceberg Analysis</b> panel shows the results of the analysis by displaying the volume and mass above sea level and total volume and mass. If the iceberg is towable (i.e. if the total mass is less than 36 million kgs) then this is indicated and displayed in green. If not towable then the message is displayed in red.
+        </td>
+    </tr>
+    <tr>
+        <td width="200"><img src="src\assets\images\control_buttons.PNG" alt="Results of analysis" width="190" height="100"></td>
+        <td>
+            <h3>Control Buttons</h3>
+            <b>Export to file</b> button will open a file dialog and allow the user to select a location and filename to save a simple text file containing the analysis results.</br>
+            <b>Clear Data</b> button unloads the loaded files and clears the charts and analysis ready to load new data for processing.</br>
+            <b>Exit</b> button closes the application window.
         </td>
     </tr>
 </table>
