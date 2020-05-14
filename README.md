@@ -81,7 +81,7 @@ The application allows the user to load  ***radar*** and ***lidar*** file of a g
 ***Note:*** This application is limited to analysing a single iceberg. Future development will include the ability to analyse an area of sea with multiple icebergs.
 
 ## Documents
-The software development guide can be viewed as a pdf [here](documents\WhiteStarLineSoftwareDevelopmentGuide.pdf).
+The software development guide can be viewed as a pdf [here](documents/WhiteStarLineSoftwareDevelopmentGuide.pdf).
 ## Developer Information
 Code developed by [Javid Yousaf](https://github.com/javidyousaf/) for University of Leeds MSc Geographical Information Science course. 
 
