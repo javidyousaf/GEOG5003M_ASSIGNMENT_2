@@ -1,11 +1,9 @@
-<table>
-    <tr>
-        <td><img src="src\assets\images\wsl.ico" alt="Whistlerpro / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" width="100" height="100"></td>
-        <td><h1>White Star Line Analysis</h1></td>
-    </tr>
-</table>
 
-White Start Line Analysis is a desktop application developed to detect and analyse icebergs, using satellite lidar and radar data of an arear of the sea in the White Start Line shipping lanes. The analysis calculates the volume and mass of the iceberg to determine its tow ability.
+<img  align="left" src="src\assets\images\wsl.ico" alt="Whistlerpro / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" width="130" height="130">
+
+# White Star Line Analysis
+
+###  White Start Line Analysis is a desktop application developed to detect and analyse icebergs, using satellite lidar and radar data of an arear of the sea in the White Start Line shipping lanes. The analysis calculates the volume and mass of the iceberg to determine its tow ability.
 
 ## Contents
 
