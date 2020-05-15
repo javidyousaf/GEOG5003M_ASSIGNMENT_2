@@ -253,7 +253,7 @@ class MainApplication:
         self.process_lidar_file("assets/single.lidar")
         self.process_radar_file("assets/single.radar")
 
-    # Open a lidar file dialog box for user selection of file - file is restriced to .lidar types
+
     def open_lidar_file(self):
         '''
         - Opens a file dialog box for the user to select a LIDAR file.
@@ -264,16 +264,17 @@ class MainApplication:
             initialdir="/", title="Open Lidar File", filetypes=[("lidar files", ".lidar")])
         self.process_lidar_file(lidar_filename)
 
-    # Open a radar file dialog box for user selection of file - file is restriced to .radar types
+
     def open_radar_file(self):
         '''
         - Opens a file dialog box for the user to select a RADAR file.
-        - The file is restriced to .ra type.
+        - The file is restriced to .radar type.
         - Initiates the processing of data once the file is selected.
         '''
         radar_filename = filedialog.askopenfilename(
             initialdir="/", title="Open Radar File", filetypes=[("radar files", "*.radar")])
         self.process_radar_file(radar_filename)
+
 
     def process_lidar_file(self, lidar_filepath):
         '''
@@ -299,7 +300,6 @@ class MainApplication:
         except Exception as e:
             print('Unable to open file: %r' % lidar_filepath, e)
 
-    # Process the radar file
 
     def process_radar_file(self, radar_filepath):
         '''
