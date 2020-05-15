@@ -59,6 +59,7 @@ class Iceberg:
 
     def is_towable(self):
         '''
+        Determine if the iceberg is towable.
         Returns True if the iceberg mass is less than 36 million kg's.
         Returns False if the iceberg mass is 36 million kg's or more.
         '''

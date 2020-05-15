@@ -76,6 +76,7 @@ class AreaElement:
     def calculate_height_as(self):
         '''
         Calculates the elements height in metres above sea level.
+        Each lidar value is 10 cm and calculation returns a value in metres.
          '''
         if (self._lidar_value > 0):
             return self._lidar_value / 10
